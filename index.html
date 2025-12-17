@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Frames Website</title>
+    <title>Online Shopping Website</title>
 </head>
 
 <!-- Divide page into 3 rows -->
 <frameset rows="20%,15%,65%" border="1">
 
-    <!-- First row divided into 2 columns -->
+    <!-- First Row: Logo + Header -->
     <frameset cols="25%,75%">
         <frame src="logo.html" name="logo">
         <frame src="header.html" name="header">
     </frameset>
 
-    <!-- Second row divided into 5 columns -->
-    <frameset cols="20%,20%,20%,20%,20%">
-        <frame src="home.html" name="menu">
-        <frame src="login.html" name="menu">
-        <frame src="register.html" name="menu">
-        <frame src="catalogue.html" name="menu">
-        <frame src="contact.html" name="menu">
-    </frameset>
+    <!-- Second Row: Navigation Menu -->
+    <frame src="menu.html" name="menu">
 
-    <!-- Third row divided into 2 columns -->
+    <!-- Third Row: Services + Content -->
     <frameset cols="25%,75%">
-        <frame src="services.html" name="left">
+        <frame src="services.html" name="services">
         <frame src="description.html" name="content">
     </frameset>
 
 </frameset>
+
 </html>
